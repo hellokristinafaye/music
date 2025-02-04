@@ -3,7 +3,7 @@ var icon = document.getElementById('icon');
 
 icon.onclick = function () {
     if (mySong.paused) {
-        mySong.onplay();
+        mySong.play();
         icon.src = "assets/images/pause.png";
     } else {
         mySong.pause();
